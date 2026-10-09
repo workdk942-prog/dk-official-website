@@ -1,8 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>DK Official</title>
 
   <style>
@@ -17,7 +16,7 @@
       background: linear-gradient(135deg, #111827, #4f46e5);
       color: white;
       min-height: 100vh;
-      text-align: center;
+  text-align: center;
       padding: 30px 15px;
     }
 
@@ -52,77 +51,85 @@
     }
 
     h2 {
-      margin-bottom: 20px;
+      margin: 25px 0 15px;
     }
 
-    a {
+    .btn {
       display: block;
       text-decoration: none;
       color: white;
-      padding: 18px;
-      margin: 15px 0;
-      border-radius: 18px;
-      font-size: 22px;
+      background: rgba(255,255,255,0.18);
+      padding: 14px;
+      margin: 12px 0;
+      border-radius: 12px;
+      font-size: 18px;
+      transition: 0.3s;
     }
 
-    .instagram {
-      background: #e1306c;
+    .btn:hover {
+      background: white;
+      color: #4f46e5;
+      transform: scale(1.03);
     }
+.btn {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
 
-    .youtube {
-      background: red;
-    }
+.btn:active {
+  transform: scale(0.96);
+}
+    .instagram-btn {
+  background: #e1306c;
+}
 
-    .contact {
-      background: rgba(255,255,255,0.20);
-    }
-
+.youtube-btn {
+  background: #ff0000;
+}
     footer {
-      margin-top: 40px;
-      font-size: 16px;
+      margin-top: 30px;
+      font-size: 14px;
       opacity: 0.8;
-    }
+      } 
   </style>
 </head>
 
 <body>
 
   <div class="card">
+<h2>Welcome to DK Official</h2>
 
-    <img src="photo.jpg" class="profile" alt="DK Official">
+<p>આગળ વધવા માટે નીચે ક્લિક કરો ❤️</p>
+
+<a href="home.html" class="btn">Enter 🚀</a>
+    <img src="photo.jpg" class="profile" alt="DK Photo">
 
     <h1>DK Official</h1>
 
     <p class="bio">
       Welcome to my official website ❤️
     </p>
+<h2>About Me</h2>
 
-    <h2>About Me</h2>
-
-    <p class="bio">
-      Hi, I'm DK 👋<br>
-      Welcome to my official website.<br>
-      Follow me on Instagram and YouTube ❤️
-    </p>
-
+<p class="bio">
+  Hi, I’m DK 👋<br>
+  Welcome to my official website.<br>
+  Follow me on Instagram and YouTube ❤️
+</p>
     <h2>My Social Media</h2>
 
-    <a class="instagram"
-       href="https://www.instagram.com/dk_official_1204_koli"
-       target="_blank">
-      📸 Instagram
-    </a>
+  <a href="https://www.instagram.com/dk_official_1204_koli/" class="btn instagram-btn" target="_blank">
+  📸 Instagram
+</a>
 
-    <a class="youtube"
-       href="https://www.youtube.com/@dk_official_1204_koli"
-       target="_blank">
-      ▶️ YouTube
-    </a>
+<a href="https://www.youtube.com/@dk_official_1204_koli" class="btn youtube-btn" target="_blank">
+  ▶️ YouTube
+</a> 
 
-    <a class="contact"
-       href="mailto:dichencharaniya45@gmail.com">
-      ✉️ Contact Me
-    </a>
+
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=dichencharaniya45@gmail.com"
+   class="btn">
+  📧 Contact Me
+  </a>
 
     <footer>
       © 2026 DK Official ❤️
